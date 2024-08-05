@@ -1,0 +1,16 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.posts img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+    transition: transform 0.2s ease;
+}
+.posts img:hover{
+    transform: scale(1.1);
+}
