@@ -9,8 +9,8 @@ const Sidebar = () => {
         <span className="sidebarTitle">RAW</span>
         <img src="https://psrihospital.com/wp-content/uploads/2023/07/blog-1.webp" alt="About Me" />
         <p>
-          Welcome to my blog! I'm [Your Name], a passionate [Your Profession/Interest], dedicated to sharing insights, tips, and stories about [Your Blog's Main Topic].
-          When I'm not writing, you can find me exploring new ideas, experimenting with [Related Activity], and connecting with like-minded individuals.
+          Welcome to my blog! I'm BOYS, a passionate ECE, dedicated to sharing insights, tips, and stories about Mernstack.
+          When I'm not writing, you can find me exploring new ideas, experimenting with project, and connecting with like-minded individuals.
           Follow my journey and stay updated by subscribing to my newsletter and connecting with me on social media.
           Let's learn and grow together!
         </p>
