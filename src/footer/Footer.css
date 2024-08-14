@@ -84,3 +84,21 @@ a{
     color: rgb(247, 236, 236);
     font-weight: 600;
 }
+.sidebarSocial {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .socialIcon {
+    font-size: 24px; /* Adjust size as needed */
+    color: #000; /* Initial color */
+    margin: 0 10px; /* Spacing between icons */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .socialIcon:hover {
+    color: #007bff; /* Change this to the hover color you prefer */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  }
+  

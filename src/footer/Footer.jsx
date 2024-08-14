@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css';
+import { FaInstagram, FaFacebookSquare, FaTwitterSquare, FaPinterestSquare } from 'react-icons/fa';
+
 const Footer = () => {
   return (
     <div className='footer'>
@@ -57,12 +59,20 @@ const Footer = () => {
                 </div>
                 </div>
                 </div>
-                    <div className='SocialMedia'>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-pinterest"></i>
-                        <i class="fa-brands fa-instagram"></i>    
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </div>
+                <div className="sidebarSocial">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="socialIcon">
+            <FaFacebookSquare />
+          </a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="socialIcon">
+            <FaTwitterSquare />
+          </a>
+          <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer" className="socialIcon">
+            <FaPinterestSquare />
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="socialIcon">
+            <FaInstagram />
+          </a>
+        </div>
         <hr></hr>
         <div className='sb_footer_below'>
             <div className='sb_footer_copyrights'>
